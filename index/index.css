@@ -9,12 +9,12 @@ body {
   background-color: White;
 }
 
-.myBody {
+#main {
   background-color: rgba(110, 107, 107, 0.253);
   border-radius: 12px;
 }
 
-.myHead1 {
+#title {
   padding: 25px 0 0 0;
   font-size: 35px;
   color: rgb(41, 39, 39);
@@ -26,12 +26,12 @@ body {
   color: rgb(77, 74, 74);
 }
 
-.myFigure {
+#img-div {
   background-color: White;
   margin: 15px;
 }
 
-.myFigure img {
+#img-div #image {
   max-width: 95%;
   height: auto;
   background-position: center;
@@ -40,14 +40,14 @@ body {
   margin: 15px;
 }
 
-figcaption {
+#img-caption {
   padding: 0 15px 12px 15px;
   font-size: 16px;
   font-weight: 500;
   color: rgb(82, 80, 80);
 }
 
-.myContent {
+#tribute-info {
   max-width: 640px;
   margin: auto;
   line-height: 30px;
