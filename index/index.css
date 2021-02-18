@@ -51,6 +51,20 @@ figcaption {
   max-width: 640px;
   margin: auto;
   line-height: 30px;
+  padding: 0 14px;
+}
+
+.myHead2{
+    padding: 25px 0 25px 0;
+  font-size: 20px;
+  color: rgb(41, 39, 39);
+}
+
+ul li{
+    text-align: left;
+    padding: 8px 0;
+    font-weight: 500;
+    color: rgb(73, 72, 72);
 }
 
 .myQuote {
