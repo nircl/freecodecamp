@@ -28,20 +28,19 @@ body {
 
 #img-div {
   background-color: White;
-  margin: 15px;
+  padding: 10px;
+  margin: 0;
 }
 
 #img-div #image {
-  max-width: 95%;
+  max-width: 100%;
+  display: block;
   height: auto;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  margin: 15px;
+  margin: 0 auto;
 }
 
 #img-caption {
-  padding: 0 15px 12px 15px;
+  padding: 12px 15px 12px 15px;
   font-size: 16px;
   font-weight: 500;
   color: rgb(82, 80, 80);
@@ -54,17 +53,17 @@ body {
   padding: 0 14px;
 }
 
-.myHead2{
-    padding: 25px 0 25px 0;
+.myHead2 {
+  padding: 25px 0 25px 0;
   font-size: 20px;
   color: rgb(41, 39, 39);
 }
 
-ul li{
-    text-align: left;
-    padding: 8px 0;
-    font-weight: 500;
-    color: rgb(73, 72, 72);
+ul li {
+  text-align: left;
+  padding: 8px 0;
+  font-weight: 500;
+  color: rgb(73, 72, 72);
 }
 
 .myQuote {
@@ -76,4 +75,14 @@ ul li{
   font-size: 18px;
   font-weight: 900;
   padding: 15px 10px 25px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    #title, .subTitle, .myHead2, ul li, .myQuote, .forMore {
+        color: rgb(172, 169, 169);
+    }    
 }
