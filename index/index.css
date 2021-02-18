@@ -1,5 +1,65 @@
-*{
-    box-sizing: border-box;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
 }
 
+body {
+  background-color: White;
+}
+
+.myBody {
+  background-color: rgba(110, 107, 107, 0.253);
+  border-radius: 12px;
+}
+
+.myHead1 {
+  padding: 25px 0 0 0;
+  font-size: 35px;
+  color: rgb(41, 39, 39);
+}
+
+.subTitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(77, 74, 74);
+}
+
+.myFigure {
+  background-color: White;
+  margin: 15px;
+}
+
+.myFigure img {
+  max-width: 95%;
+  height: auto;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  margin: 15px;
+}
+
+figcaption {
+  padding: 0 15px 12px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(82, 80, 80);
+}
+
+.myContent {
+  max-width: 640px;
+  margin: auto;
+  line-height: 30px;
+}
+
+.myQuote {
+  text-align: left;
+  padding: 25px 0 20px 0;
+}
+
+.forMore {
+  font-size: 18px;
+  font-weight: 900;
+  padding: 15px 10px 25px 10px;
+}
